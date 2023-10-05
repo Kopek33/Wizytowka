@@ -40,7 +40,7 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 376x) {
+@media (max-width: 1160x) {
     .container {
     margin: 200px auto;
     background-color: rgb(128,128,128, 0.5);
