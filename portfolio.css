@@ -257,7 +257,7 @@ div.my-information {
     }
 
     .about-container {
-        display: flex;
+        display: block;
         margin: auto;
         max-width: 55%;
     }
@@ -267,7 +267,7 @@ div.my-information {
     }
 
     .about-container img {
-        display: flex;
+        display: block;
         max-width: 120px;
     }
 
