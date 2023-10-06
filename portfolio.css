@@ -259,7 +259,7 @@ div.my-information {
     .about-container {
         display: flex;
         margin: auto;
-        max-width: 60%;
+        max-width: 55%;
     }
     div.massage-my-image {
         display: flex;
@@ -268,7 +268,7 @@ div.my-information {
 
     .about-container img {
         display: flex;
-        max-width: 140px;
+        max-width: 120px;
     }
 
     div.my-information {
