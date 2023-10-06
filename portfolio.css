@@ -232,12 +232,12 @@ div.massage-my-information {
         flex-direction: column;
         height: 130px;
         font-size: 0.8rem;
-        position: sticky;
+        position: fixed;
     }
 
     #navbar ul {
         flex-direction: column;
-        position: sticky;
+        position: fixed;
     }
 
     #navbar ul li a {
@@ -249,7 +249,7 @@ div.massage-my-information {
     }
 
     .massage {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .massage img {
