@@ -41,7 +41,7 @@ body {
     text-decoration: none;
 }
 
-@media all and (max-width: 1180px) {
+@media all and (max-width: 800px) {
     .container {
     margin: 200px auto;
     background-color: rgb(128,128,128, 0.5);
