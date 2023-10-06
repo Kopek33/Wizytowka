@@ -227,34 +227,13 @@ div.massage-my-information {
 
 @media all and (max-width: 800px){
 
-    .nav--up {
-        top: -3rem;
-    }
-
     #navbar {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 3px;
-        position: fixed;
-        top: 0;
-        left: 0;
         flex-direction: column;
-        color: silver;
-        transition: top 200ms ease-in-out;
+        height: 190px
     }
 
     #navbar ul {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 3px;
-        position: flex;
-        top: 0;
-        left: 0;
         flex-direction: column;
-        color: silver;
-        transition: top 200ms ease-in-out;
     }
 
     #intro-section img {
@@ -266,7 +245,7 @@ div.massage-my-information {
     }
 
     .massage img {
-        max-height: 400px;
+        max-width: 90%;
     }
 
     .section {
@@ -284,7 +263,7 @@ div.massage-my-information {
         max-width: 210px;
     }
     div.massage-my-image {
-        display: flex;
+        display: block;
         margin: auto;
     }
 
