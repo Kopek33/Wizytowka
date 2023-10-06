@@ -228,39 +228,18 @@ div.massage-my-information {
 
 @media all and (max-width: 800px){
 
-    .navbar ul li a {
-        flex-direction: column;
-        width: 100%;
-        height: 5rem;
-        top: 0;
-        left: 0;
-        background-color: rgb(128,128,128, 0.3);
-        transition: top 200ms ease-in-out;
-    }
-
-    .nav--up {
-        top: -5rem;
-    }
-
     #navbar {
         flex-direction: column;
-        width: 100%;
-        height: 5rem;
-        top: 0;
-        left: 0;
-        background-color: rgb(128,128,128, 0.3);
-        transition: top 200ms ease-in-out;
-        
+        height: 120px;
+        font-size: 0.8rem;
     }
 
     #navbar ul {
         flex-direction: column;
-        width: 100%;
-        height: 5rem;
-        top: 0;
-        left: 0;
-        background-color: rgb(128,128,128, 0.3);
-        transition: top 200ms ease-in-out;
+    }
+
+    #navbar ul li a {
+        font-size: 0.8rem;
     }
 
     #intro-section img {
@@ -296,13 +275,13 @@ div.massage-my-information {
 
     .about-container img {
         display: flex;
-        max-width: 120px;
+        max-width: 160px;
     }
 
     div.massage-my-information {
         display: block;
         margin: auto;
-        max-width: 30%;
+        max-width: 50%;
         font-size: 0.8rem;
         text-align: left;
     }
