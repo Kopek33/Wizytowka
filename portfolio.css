@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(128,128,128, 0.8);
+    box-shadow: 0 10px 10px -5px silver;
+}
+
+#navbar ul {
+    display: flex;
+    margin: 10px auto 10px auto;
+    width: 80%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: blue;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.7s;
+}
+
+#intro-section img { 
+    height: 300px;
+    max-width: 100%;
+}
+
+#welcome-section {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    color: silver;
+}
+
+.massage {
+    display: flex;
+    margin: 10px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.massage img {
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    margin: 0;
+    box-shadow: 0 10px 10px -5px blue;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: silver;
+    font-size: 2rem;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.about-container {
+    margin: 10px;
+    width: 500px;
+}
+
+.about-container img {
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+}
+
+div.my-information {
+    display: block;
+    margin: 10px;
+    width: 500px;
+    color: silver;
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#skills-section {
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+    color: silver;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.skill-information {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill-information progress {
+    background-color: blue;
+    border: 1px solid silver;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: rgb(0, 0, 216);
+    border-radius: 0 10px 10px 0;
+}
+
+.skill-information progress::-webkit-progress-bar {
+    background-color: black;
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificates-container .image-box {
+    margin: 10px;
+}
+
+.image-box {
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px;
+    color: silver;
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+}
+
+.image-box img:hover {
+    transform: scale(2.2);
+    transition: all 2s;
+}
+
+.image-box img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#contact-section { 
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding: 50px;
+    color: silver;
+    background-color: rgb(128,128,128, 0.3);
+    border-radius: 10px;
+
+}
+
+#contact-section a {
+    color: silver;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/*
+@media (max-width: 800px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+    }
+
+    #navbar ul li a {
+        flex-direction: column;
+    }
+
+    #navbar ul li a:hover {
+        flex-direction: column;
+    }
+
+}
+*/
+
