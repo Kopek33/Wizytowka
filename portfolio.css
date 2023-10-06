@@ -227,12 +227,15 @@ div.massage-my-information {
 
 @media all and (max-width: 800px){
     #navbar {
-        flex-direction: column;
-        height: 190px
+        flex-direction: column
     }
 
     #navbar ul {
         flex-direction: column;
+    }
+
+    .nav--up {
+        top: -3rem;
     }
 
     #intro-section img {
@@ -244,7 +247,7 @@ div.massage-my-information {
     }
 
     .massage img {
-        width: 100%;
+        max-height: 400px;
     }
 
     .section {
@@ -274,7 +277,7 @@ div.massage-my-information {
     div.massage-my-information {
         display: block;
         margin: auto;
-        max-width: 40%;
+        max-width: 30%;
         font-size: 0.8rem;
         text-align: left;
     }
