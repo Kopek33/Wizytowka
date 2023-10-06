@@ -1,6 +1,7 @@
 body {
     background: url("https://cdn.pixabay.com/photo/2023/04/29/16/40/ai-generated-7958926_1280.jpg") no-repeat center center fixed;
     background-size: cover;
+    background-color: black;
 }
 .container {
     margin: 200px auto;
