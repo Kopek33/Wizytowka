@@ -230,7 +230,7 @@ div.massage-my-information {
 
     #navbar {
         flex-direction: column;
-        height: 120px;
+        height: 130px;
         font-size: 0.8rem;
     }
 
@@ -281,7 +281,7 @@ div.massage-my-information {
     div.massage-my-information {
         display: block;
         margin: auto;
-        max-width: 50%;
+        max-width: 45%;
         font-size: 0.8rem;
         text-align: left;
     }
