@@ -88,22 +88,34 @@ section {
 }
 
 .section-heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: silver;
-    font-size: 2rem;
     font-family: "Poppins",Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
     margin: 10px;
     width: 500px;
 }
 
-.about-container img {
-    flex-wrap: wrap;
+div.massage-my-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 500px;
+    border-radius: 10px;
     background-color: rgb(128,128,128, 0.3);
+}
+
+.about-container img {
+    margin: auto;
+    padding: 0;
+    width: 250px;
     border-radius: 10px;
 }
 
@@ -212,24 +224,93 @@ div.my-information {
     text-decoration: none;
     font-size: 1.2rem;
 }
-/*
-@media (max-width: 800px) {
+
+@media all and (max-width: 800px){
     #navbar {
         flex-direction: column;
+        height: 190px
     }
 
     #navbar ul {
         flex-direction: column;
     }
 
-    #navbar ul li a {
-        flex-direction: column;
+    #intro-section img {
+        max-height: 150px;
     }
 
-    #navbar ul li a:hover {
-        flex-direction: column;
+    .massage {
+        font-size: 0.9rem;
     }
 
+    .massage img {
+        max-width: 80%;
+    }
+
+    .section {
+        margin-top: 0.7rem;
+        padding-top: 1.2rem;
+    }
+
+    .section-heading {
+        font-size: 1.3rem;
+    }
+
+    .about-container {
+        display: flex;
+        margin: auto;
+        max-width: 60%;
+    }
+    div.massage-my-image {
+        display: flex;
+        margin: auto;
+    }
+
+    .about-container img {
+        display: flex;
+        max-width: 140px;
+    }
+
+    div.my-information {
+        display: block;
+        margin: auto;
+        width: 150px;
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .skill-information {
+        padding: 0.8rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .skill-name {
+        margin: 0;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+    
+    .image-box {
+        display: block;
+        width: 300px;
+        font-size: 0.9rem;
+        
+    }
+    
+    .image-box img:hover {
+        transform: scale(1.4);
+        transition: all 2s;
+    }
+    
+    #contact-section { 
+        display: block;
+        margin-top: 0.5rem;
+        padding: 25px;
+    
+    }
+    
+    #contact-section a {
+        font-size: 1.0rem;
+    }
 }
-*/
-
