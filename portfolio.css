@@ -244,7 +244,7 @@ div.my-information {
     }
 
     .massage img {
-        max-width: 90%;
+        width: 150px;
     }
 
     .section {
@@ -257,7 +257,7 @@ div.my-information {
     }
 
     .about-container {
-        display: block;
+        display: flex;
         margin: auto;
         max-width: 55%;
     }
@@ -267,7 +267,7 @@ div.my-information {
     }
 
     .about-container img {
-        display: block;
+        display: flex;
         max-width: 120px;
     }
 
