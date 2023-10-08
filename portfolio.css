@@ -276,18 +276,19 @@ div.massage-my-information {
     div.massage-my-image {
         display: flex;
         margin: auto;
+        ;
     }
 
     .about-container img {
-        display: flex;
-        max-width: 160px;
+        display: block;
+        max-width: 150%;
     }
 
     div.massage-my-information {
         display: block;
         margin: auto;
-        max-width: 55%;
-        font-size: 0.9rem;
+        max-width: 45%;
+        font-size: 0.8rem;
         text-align: left;
     }
 
@@ -353,13 +354,13 @@ div.massage-my-information {
     }
 
     div.massage-my-image {
-        display: flex;
+        display: block;
         margin: auto;
     }
 
     .about-container img {
         display: block;
-        max-width: 160px;
+        max-width: 60%;
     }
 
     div.massage-my-information {
