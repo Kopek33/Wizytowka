@@ -226,6 +226,25 @@ div.massage-my-information {
     font-size: 1.2rem;
 }
 
+@media all and (max-width: 650px){
+
+    #navbar {
+        flex-direction: column;
+        height: 130px;
+        font-size: 0.8rem;
+        position: static;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        position: static;
+    }
+
+    #navbar ul li a {
+        font-size: 0.8rem;
+    }
+}
+
 @media all and (max-width: 800px){
 
     #navbar {
@@ -236,8 +255,8 @@ div.massage-my-information {
     
     #navbar ul {
         display: flex;
-        margin: 5px auto 5px auto;
-        width: 100%;
+        margin: 10px auto 10px auto;
+        width: 80%;
         justify-content: space-evenly;
         list-style: none;
     }
@@ -246,7 +265,7 @@ div.massage-my-information {
         margin-left: 2px;
         color: black;
         opacity: 0.8;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
 
     }
 
