@@ -252,7 +252,7 @@ div.massage-my-information {
     }
 
     .massage {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .massage img {
@@ -274,7 +274,7 @@ div.massage-my-information {
         max-width: 210px;
     }
     div.massage-my-image {
-        display: block;
+        display: flex;
         margin: auto;
     }
 
@@ -286,8 +286,8 @@ div.massage-my-information {
     div.massage-my-information {
         display: block;
         margin: auto;
-        max-width: 45%;
-        font-size: 0.8rem;
+        max-width: 55%;
+        font-size: 0.9rem;
         text-align: left;
     }
 
@@ -341,4 +341,37 @@ div.massage-my-information {
     #navbar ul li a {
         font-size: 0.8rem;
     }
+
+    .massage {
+    font-size: 0.7rem;
+    }
+
+    .about-container {
+        display: flex;
+        margin: auto;
+        max-width: 210px;
+    }
+
+    div.massage-my-image {
+        display: flex;
+        margin: auto;
+    }
+
+    .about-container img {
+        display: block;
+        max-width: 160px;
+    }
+
+    div.massage-my-information {
+        display: block;
+        margin: auto;
+        max-width: 45%;
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+
+
+
 }
+
