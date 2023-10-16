@@ -194,6 +194,10 @@ div.massage-my-information {
     border-radius: 10px;
 }
 
+.image-box div {
+    margin: 10px;
+}
+
 .image-box img:hover {
     transform: scale(2.2);
     transition: all 2s;
@@ -314,6 +318,14 @@ div.massage-my-information {
         transform: scale(1.4);
         transition: all 2s;
     }
+
+    .image-box div img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        border-radius: 10px;
+    }
     
     #contact-section { 
         display: block;
@@ -371,7 +383,13 @@ div.massage-my-information {
         text-align: left;
     }
 
-
+    .image-box div img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 280px;
+        border-radius: 10px;
+    }
 
 
 }
