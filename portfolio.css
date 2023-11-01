@@ -131,7 +131,7 @@ div.massage-my-image {
 }
 
 .about-container img:hover {
-    transform: scale(1.1);
+    transform: scale(1.7);
     transition: all 1s;
 }
 
