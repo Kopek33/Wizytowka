@@ -131,7 +131,7 @@ div.massage-my-image {
 }
 
 .about-container img:hover {
-    transform: scale(1.7);
+    transform: scale(1.2);
     transition: all 1s;
 }
 
@@ -394,6 +394,11 @@ div.massage-my-information {
         max-width: 150%;
     }
 
+    .about-container img:hover {
+        transform: scale(1.5);
+        transition: all 1s;
+    }
+
     div.massage-my-information {
         display: block;
         margin: auto;
@@ -490,6 +495,11 @@ div.massage-my-information {
     .about-container img {
         display: block;
         max-width: 65%;
+    }
+
+    .about-container img:hover {
+        transform: scale(1.7);
+        transition: all 1s;
     }
 
     div.massage-my-information {
