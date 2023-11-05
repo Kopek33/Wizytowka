@@ -1,118 +1,125 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Cormorant Garamond', serif;
-    font-family: 'News Cycle', sans-serif;
-    font-size: 1.6rem;
-    background-color: rgb(0, 27, 7);
+	font-family: "Cormorant Garamond", serif;
+	font-family: "News Cycle", sans-serif;
+	font-size: 1.6rem;
+	background-color: rgb(0, 27, 7);
 }
 
 .hero-shadow {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: -1;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -1;
 }
 
 .green-color {
-    color: rgb(3, 231, 22);
+	color: rgb(3, 231, 22);
 }
 
 .border {
-    border-radius: 10px;
-    box-shadow: 0 10px 10px -5px rgb(0, 255, 42);
+	border-radius: 10px;
+	box-shadow: 0 10px 10px -5px rgb(0, 255, 42);
 }
 
-.navbar-brand {
-    font-size: 2.2rem;
-    text-transform: uppercase;
-}
-
-.nav-link, .navbar-toggler-icon {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-}
-
-.navbar-toggler {
-    padding: 0.8em;
-}
-
-[id] {
-    scroll-margin-top: 79px;
-}
-
-@media (min-width:992px) {
-    [id] {
-        scroll-margin-top: 69px;
-    }
-}
-
-.home {
-    position: relative;
-    height: 60rem;
-    background-image: url("IMG_0936.JPG");
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-}
-
-.beginning-box h3 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.beginning-icon {
-    font-size: 3rem;
-}
-
-.display-3 {
-    text-shadow: rgb(3, 255, 3) 0.2em 0.2em 0.3em;
-}
-
-.bicycle h3 {
-    color: rgb(0, 133, 77);
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.carousel-item {
-    max-height: 470px;
+.card-img-top {
+	border-radius: 10px 10px 0 0;
 }
 
 .card-body {
-    background-color: rgb(0, 59, 16);
+	border-radius: 0 0 10px 10px;
+}
+
+.navbar-brand {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler-icon {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+.navbar-toggler {
+	padding: 0.8em;
+}
+
+[id] {
+	scroll-margin-top: 79px;
+}
+
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
+}
+
+.home {
+	position: relative;
+	height: 60rem;
+	background-image: url("IMG_0936.JPG");
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.beginning-box h3 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.beginning-icon {
+	font-size: 3rem;
+}
+
+.display-3 {
+	text-shadow: rgb(3, 255, 3) 0.2em 0.2em 0.3em;
+}
+
+.bicycle h3 {
+	color: rgb(0, 133, 77);
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.carousel-item {
+	max-height: 470px;
+}
+
+.card-body {
+	background-color: rgb(0, 59, 16);
 }
 
 .card-body a {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
+	color: rgb(255, 0, 0);
+	text-decoration: none;
 }
 
 .blue-color {
-    color: rgb(133, 133, 245);
+	color: rgb(133, 133, 245);
 }
 
 .red-color {
-    color: rgb(167, 0, 0);
+	color: rgb(167, 0, 0);
 }
 
 .contact a {
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 2.2rem;
-    color: white;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 2.2rem;
+	color: white;
 }
-
