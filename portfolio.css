@@ -540,6 +540,20 @@ div.massage-my-information {
         margin-bottom: 5px;
     }
 
+}
+
+@media (max-width: 400px) {
+
+    [id] {
+        scroll-margin-top: 135px;
+    }
+    
+    #navbar {
+        flex-direction: column;
+        height: 135px;
+        font-size: 0.8rem;
+        position: sticky;
+    }
 
 }
 
