@@ -70,8 +70,8 @@ body {
 	position: relative;
 	height: 60rem;
 	background-image: url("../img-kolarstwo/IMG_0936.JPG");
-	background-size: cover;
 	background-position: center;
+	background-size: cover;
 	z-index: 0;
 }
 
